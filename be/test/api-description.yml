@@ -1,0 +1,204 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: SJA BE
+  description: SJA Rules Engine Backend
+paths:
+  /:
+    get:
+      description: API status check endpoint
+      responses:
+        200:
+          description: API is online
+          schema:
+            type: object
+            required:
+               - status
+            properties:
+              status:
+                type: string
+
+  /paper:
+    get:
+      description: Get list of all paper database items
+      responses:
+        200:
+          description: Success
+          schema:
+            type: object
+            required:
+               - papers
+            properties:
+              papers:
+                type: array
+  /ruleset:
+    get:
+      description: Get all rulesets
+      responses:
+        200:
+          description: Success
+          schema:
+            type: object
+            required:
+               - rulesets
+            properties:
+              rulesets:
+                type: object
+                required:
+                  - T24
+                properties:
+                  T24:
+                    $ref: "#/definitions/T24Ruleset"
+  /ruleset/{rulesetName}:
+    get:
+      description: Get single ruleset
+      parameters:
+        - $ref: "#/parameters/RulesetName"
+      responses:
+        200:
+          description: Success
+          schema:
+            type: object
+            required:
+              - T24
+            properties:
+              T24:
+                $ref: "#/definitions/T24Ruleset"
+                required:
+                  - properties
+                  - requiredInputProperties
+                properties:
+                  properties:
+                    type: object
+                  requiredInputProperties:
+                    type: array
+
+  /ruleset/{rulesetName}/job:
+    post:
+      description: Run a job for a ruleset
+      consumes:
+        - application/json
+      parameters:
+        - $ref: "#/parameters/RulesetName"
+        - name: inputProperties
+          in: body
+          required: true
+          schema:
+            type: object
+            required:
+              - inputProperties
+            properties:
+              inputProperties:
+                $ref: "#/definitions/T24JobInputProps"
+
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: "#/definitions/T24SavedJob"
+            
+              
+
+parameters:
+  RulesetName:
+    name: rulesetName
+    in: path
+    $ref: "#/definitions/RulesetName"
+    required: true
+    x-example: "T24"
+
+definitions:
+  RulesetName:
+    type: string
+
+  # T24 test ruleset
+  T24Ruleset:
+    type: object
+    required:
+      - displayName
+    properties:
+      displayName:
+        type: string
+
+  # T24 test job inputs
+  T24JobInputProps:
+    type: object
+    required:
+      - pdfMaxCoverage
+      - opticalDensity
+      - paperWeight
+      - paperTypeCoated
+      - paperTypeTreatment
+      - paperFinish
+    properties:
+      pdfMaxCoverage:
+        type: number
+        example: 0.70
+      opticalDensity:
+        type: number
+        example: 0.97
+      paperWeight:
+        type: number
+        example: 10.0
+      paperTypeCoated:
+        type: string
+        example: "coated"
+      paperTypeTreatment:
+        type: string
+        example: "none"
+      paperFinish:
+        type: string
+        example: "matte"
+      pressUnwinderBrand:
+        type: string
+        example: "HNK"
+      qualityMode:
+        type: string
+        example: "fast"
+
+  # T24 test job output
+  T24SavedJob:
+    type: object
+    required:
+      - inputProperties
+      - calculatedProperties
+      - rulesetName
+      #- jobName
+    properties:
+      jobName:
+        type: string
+      rulesetName:
+        $ref: "#/definitions/RulesetName"
+      inputProperties:
+        $ref: "#/definitions/T24JobInputProps"
+      calculatedProperties:
+        type: object
+        required:
+          - coverageClass
+          - mediaWeightClass
+          - mediaCoatingClass
+          - dryerZone
+          - printZone
+          - emtUnwinder
+          - hnkUnwinder
+          - rewinder
+        properties:
+          coverageClass:
+            type: string
+          mediaWeightClass:
+            type: string
+          mediaCoatingClass:
+            type: string
+          dryerZone:
+            type: number
+          printZone:
+            type: number
+          emtUnwinder:
+            type: number
+          hnkUnwinder:
+            type: number
+          rewinder:
+            type: number
+
+
+    

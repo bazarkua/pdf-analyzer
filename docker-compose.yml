@@ -1,0 +1,45 @@
+version: "3.5"
+services:
+  sja_be:
+    build: ./be
+    image: sja-be
+    networks:
+      sja:
+    volumes:
+      - ./pdf/pdfs:/root/test_pdfs
+      - ./be/test/config/ruleset/T24:/opt/sja/rulesets/T24:ro
+      - ./be/test/config/paperdb.csv:/opt/sja/paperdb.csv:ro
+      - ./be/test/config/api-tests.settings.json:/opt/sja/settings.json:ro
+    restart: "no"
+
+  sja_be_api_tests:
+    build: 
+      context: ./be
+      dockerfile: ./test/dredd.Dockerfile
+    image: sja-be-api-tests
+    networks:
+      sja:
+    volumes: 
+      - ./be/test/api-description.yml:/root/api-description.yml
+    depends_on:
+      - sja_be
+
+  sja_pdf:
+    build: ./pdf
+    image: sja-pdf
+    volumes:
+      - ./pdf/pdfs:/app/pdfs
+      - ./pdf/images:/app/images
+    restart: "no"
+    
+  sja_fe:
+    build: ./fe/SmartJobAdvisor/ClientApp
+    ports:
+      - "8001:3000"
+    image: sja-fe
+    restart: "no"
+
+networks:
+  sja:
+
+

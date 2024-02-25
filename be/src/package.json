@@ -1,0 +1,22 @@
+{
+  "name": "sja-backend",
+  "version": "0.1.0",
+  "description": "Smart Job Advisor Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "commander": "^9.0.0",
+    "csv-parse": "^5.0.4",
+    "download-file-sync": "^1.0.4",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "request": "^2.88.2",
+    "tmp": "^0.2.1"
+  }
+}

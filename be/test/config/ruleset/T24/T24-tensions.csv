@@ -1,0 +1,4 @@
+mediaWeightClass,coverageClass,dryerZone,printZone,emtUnwinder,hnkUnwinder,rewinder
+veryLow,light,0.75,0.75,0.75,0.37,0.75
+veryLow,medium,0.75,0.75,0.75,0.37,0.75
+veryLow,heavy,0.5,0.5,0.5,0.25,0.5

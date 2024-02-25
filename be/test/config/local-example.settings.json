@@ -1,0 +1,16 @@
+{
+  "port": 8000,
+  "rulesetDirs": ["/path/to/be/test/config/ruleset"],
+  "logsDir": "/logs/output/dir",
+  "enableLogs": false,
+  "paperDatabaseFile": "/path/to/be/test/config/paperdb.csv",
+  "enablePaperDatabase": true,
+  "pdfAnalyzer": {
+    "binLocation": "/path/to/executable",
+    "configFile": "/path/to/config.json",
+    "execDir": "/path/to/cwd",
+    "enable": true
+  },
+  "jobHistoryFile": "/history/output/file.json",
+  "enableJobHistory": true
+}

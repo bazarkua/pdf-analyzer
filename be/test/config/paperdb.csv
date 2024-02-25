@@ -1,0 +1,195 @@
+manufacturer,productname,weightgsm,papertype,papersubtype,finish,useprimer,usefixer
+Apno,Tr Coated UltraBM,160,Coated Treated,Text,Matte,false,false
+Apno,Tr Coated UltraBM,190,Coated Treated,Text,Matte,false,false
+Arsn,Co J Silk,90,Coated Pro,Text,Silk,false,false
+Arsn,Co J Silk,115,Coated Pro,Text,Silk,false,false
+Arsn,Co J Silk,130,Coated Pro,Text,Silk,false,false
+Arsn,Co J,80,Uncoated Treated,Text,Matte,false,false
+Arsn,Co J,90,Uncoated Treated,Text,Matte,false,false
+Arsn,Co J,120,Uncoated Treated,Text,Matte,false,false
+Arsn,Co JP,80,Uncoated Pro,Text,Matte,false,false
+Arsn,Co JP,90,Uncoated Pro,Text,Matte,false,false
+Arsn,Co JP,120,Uncoated Pro,Text,Matte,false,false
+Arsn,Cy JP,70,Uncoated Treated,Text,Matte,false,false
+Arsn,Cy JP,80,Uncoated Treated,Text,Matte,false,false
+Arsn,Cy JP,90,Uncoated Treated,Text,Matte,false,false
+Bore,Bo Ps,74,Uncoated,Bond,Smooth,false,true
+Bore,Bo Ps,90,Uncoated,Bond,Smooth,false,true
+Crre,Cr Brite Silk,70,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Brite Silk,80,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Brite Silk,90,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Brite Silk,115,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Brite Silk,130,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Brite Silk,170,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Brite Silk,178,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Brite Silk,235,Uncoated Pro,Text,Silk,false,false
+Crre,Cr HP,80,Uncoated Pro,Text,Matte,false,false
+Crre,Cr HP,90,Uncoated Pro,Text,Matte,false,false
+Crre,Cr HP,100,Uncoated Pro,Text,Matte,false,false
+Crre,Cr HP,120,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Lr Matte,130,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Lr Silk,130,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Lr Silk,160,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Matte,58,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Matte,70,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Matte,90,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Matte,115,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Matte,140,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Matte,235,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Silk,58,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,65,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,70,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,80,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,90,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,100,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,115,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,140,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,170,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Silk,235,Uncoated Pro,Text,Silk,false,false
+Crre,Cr Ul,80,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Ul,90,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Ul,100,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Ul,120,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Ul,140,Uncoated Pro,Text,Matte,false,false
+Crre,Cr Ul,160,Uncoated Pro,Text,Matte,false,false
+Daoi,Ut Cl,64,Coated,Text,Matte,true,false
+Daoi,Ut Gloss,81.4,Coated,Text,Gloss,true,false
+Dora,Vi Plain,125,Uncoated Treated,Bond,Vellum,false,false
+Dora,Vi Plain,147,Uncoated Treated,Bond,Vellum,false,false
+Fire,Fi 69,105,Uncoated Treated,Bond,Smooth,false,false
+Fire,Fi 69,120,Uncoated Treated,Bond,Smooth,false,false
+Hpcn,PP Photo,300,Coated Treated,Cover,Gloss,false,false
+Kaam,Ka Coated Cover,203,Coated,Text,Gloss,true,false
+Kaam,Ka Coated Cover,254,Coated,Text,Gloss,true,false
+Kaam,Ka Coated Cover,305,Coated,Text,Gloss,true,false
+Mire,DL 02,90,Coated Treated,Text,Silk,false,false
+Mire,GS 16,95,Coated Treated,Text,Silk,false,false
+Mire,JD 48 161,161,Coated Treated,Text,Matte,false,false
+Mire,JD 48 105,105,Coated Treated,Text,Matte,false,false
+Mire,JD 48 119,119,Coated Treated,Text,Matte,false,false
+Mire,JD 48 185,185,Coated Treated,Text,Matte,false,false
+Mire,JD 48 89,89,Coated Treated,Text,Matte,false,false
+Mire,JD 90,90,Coated Treated,Text,Satin,false,false
+Mire,JD 483,125,Coated Treated,Text,Matte,false,false
+Mire,JD 487,168,Coated Treated,Text,Matte,false,false
+Mire,JD 489,188,Coated Treated,Text,Matte,false,false
+Mire,JD 492,222,Coated Treated,Text,Matte,false,false
+Mire,JH 4801,105,Coated Treated,Text,Matte,false,false
+Mire,JH 482,119,Coated Treated,Text,Matte,false,false
+Mire,JH 484,136,Coated Treated,Text,Matte,false,false
+Mire,JH 488,183,Coated Treated,Text,Matte,false,false
+Mire,JH 483,228,Coated Treated,Text,Matte,false,false
+Mire,JH 4809,88,Coated Treated,Text,Matte,false,false
+Mire,JL 482,116,Coated Treated,Text,Matte,false,false
+Mire,JL 486,160,Coated Treated,Text,Matte,false,false
+Mire,JL 488,184,Coated Treated,Text,Matte,false,false
+Mire,JL 480,85,Coated Treated,Text,Matte,false,false
+Misl,PB 63,63,Coated Pro,Text,Matte,false,false
+Misl,PF 105,105,Coated Pro,Text,Matte,false,false
+Misl,PF 128,128,Coated Pro,Text,Matte,false,false
+Misl,PF 133,133,Coated Pro,Text,Matte,false,false
+Misl,PF 150,150,Coated Pro,Text,Matte,false,false
+Misl,PF 185,185,Coated Pro,Text,Matte,false,false
+Misl,PF 90,90,Coated Pro,Text,Matte,false,false
+Misl,PN 49,49,Coated Pro,Text,Matte,false,false
+Misl,SW Gloss 105,105,Coated Pro,Text,Gloss,false,false
+Misl,SW Gloss 118,118,Coated Pro,Text,Gloss,false,false
+Misl,SW Gloss 128,128,Coated Pro,Text,Gloss,false,false
+Misl,SW Gloss 157,157,Coated Pro,Text,Gloss,false,false
+Misl,SW Gloss 198,198,Coated Pro,Text,Gloss,false,false
+Misl,SW Gloss 249,249,Coated Pro,Text,Gloss,false,false
+Misl,SW Gloss 90,90,Coated Pro,Text,Gloss,false,false
+Misl,SW Matte 105,105,Coated Pro,Text,Matte,false,false
+Misl,SW Matte 128,128,Coated Pro,Text,Matte,false,false
+Misl,SW Matte 157,157,Coated Pro,Text,Matte,false,false
+Misl,SW Matte 179,179,Coated Pro,Text,Matte,false,false
+Misl,SW Matte 224,224,Coated Pro,Text,Matte,false,false
+Misl,SW Matte 90,90,Coated Pro,Text,Matte,false,false
+Misl,SW Satin 105,105,Coated Pro,Text,Satin,false,false
+Misl,SW Satin 90,128,Coated Pro,Text,Satin,false,false
+Misl,SW Satin 90,90,Coated Pro,Text,Satin,false,false
+Misl,Va 75,75,Coated Treated,Text,Matte,false,false
+Misl,Va 90,90,Coated Treated,Text,Matte,false,false
+Moid,Neu Plain,75,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,80,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,135,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,160,Uncoated Pro,Cover,Silk,false,false
+Moid,Neu Plain,200,Uncoated Pro,Cover,Silk,false,false
+Moid,Neu Plain,250,Uncoated Pro,Cover,Silk,false,false
+Moid,Neu Plain,80,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,100,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,120,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,135,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,160,Uncoated Pro,Cover,Matte,false,false
+Moid,Neu Plain,190,Uncoated Pro,Cover,Matte,false,false
+Moid,Neu Plain,230,Uncoated Pro,Cover,Matte,false,false
+Moid,Neu Plain,80,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,90,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,100,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,135,Uncoated Pro,Text,Matte,false,false
+Moid,Neu Plain,160,Uncoated Pro,Cover,Matte,false,false
+Moid,Neu Plain,230,Uncoated Pro,Cover,Matte,false,false
+Moid,Neu Plain,260,Uncoated Pro,Cover,Matte,false,false
+Moid,Neu Plain,70,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,80,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,90,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,100,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,120,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,135,Uncoated Pro,Text,Silk,false,false
+Moid,Neu Plain,160,Uncoated Pro,Cover,Silk,false,false
+Moid,Neu Plain,190,Uncoated Pro,Cover,Silk,false,false
+Moid,Neu Plain,240,Uncoated Pro,Cover,Silk,false,false
+Nipu,B7 Plain,60,Coated,Text,Gloss,true,false
+Nogo,Br TH,70,Coated,Text,Gloss,true,false
+Nogo,Br TH,75,Coated,Text,Gloss,true,false
+Nogo,Br TH,80,Coated,Text,Gloss,true,false
+Nogo,Br TH,90,Coated,Text,Gloss,true,false
+Oij,OK Plain,64,Coated,Text,Matte,true,true
+Oij,OK Plain,81.4,Coated,Text,Matte,true,true
+Pisn,PB A Cream,75,Uncoated Treated,Text,Vellum,false,false
+Pisn,Pbo Eggshell,75,Uncoated Treated,Text,Vellum,false,false
+Pisn,Pbo Eggshell,90,Uncoated Treated,Text,Vellum,false,false
+Pisn,Pbo Eggshell Cream,67,Uncoated Treated,Text,Vellum,false,false
+Pisn,Pbo Eggshell Cream,75,Uncoated Treated,Text,Vellum,false,false
+Pisn,Pbo Eggshell Cream,90,Uncoated Treated,Text,Vellum,false,false
+Pisn,PX,67,Coated Treated,Text,Matte,false,false
+Pisn,PX,90,Coated Treated,Text,Matte,false,false
+Pisn,PX,118,Coated Treated,Text,Matte,false,false
+Pisn,PX,146,Coated Treated,Text,Matte,false,false
+Pisn,PX,178,Coated Treated,Text,Matte,false,false
+Pisn,PS Gloss,120,Coated Treated,Text,Gloss,false,false
+Pisn,PS Gloss,214,Coated Treated,Text,Gloss,false,false
+Pisn,PS Gloss,266,Coated Treated,Text,Gloss,false,false
+Pisn,PS Matte,90,Coated Treated,Text,Matte,false,false
+Pisn,PS Matte,96,Coated Treated,Text,Matte,false,false
+Pisn,PS Matte,120,Coated Treated,Text,Matte,false,false
+Pisn,PS Matte,148,Coated Treated,Text,Matte,false,false
+Pisn,PS Matte,188,Coated Treated,Text,Matte,false,false
+Rest,Re News,48.8,Uncoated,News,Smooth,false,true
+Rest,Re News,52,Uncoated,News,Smooth,false,true
+Saip,Ha Coated,89,Coated,Text,Silk,true,false
+Saip,Mag Plain,90,Coated,Text,Gloss,true,false
+Saip,Mag Plain,100,Coated,Text,Satin,true,false
+Saip,Mag Plain,115,Coated,Text,Silk,true,false
+Saip,Mag Vol,80,Coated,Text,Matte,true,false
+Saip,Mag Vol,90,Coated,Text,Matte,true,false
+Saip,Mag Vol,100,Coated,Text,Matte,true,false
+Saip,Mag Vol,115,Coated,Text,Matte,true,false
+Saip,Mag Vol,135,Coated,Text,Matte,true,false
+Saip,Mag Vol,130,Coated,Text,Matte,true,false
+Saip,Roy Plain,65,Coated,Text,Matte,true,false
+Saip,Roy Plain,100,Coated,Text,Matte,true,false
+Upbm,Di Pre,300,Coated,Text,Silk,true,false
+Upbm,Di Plain,115,Coated,Text,Silk,true,false
+Upbm,Di Plain,80,Coated,Text,Matte,true,false
+Upbm,Di H Plain,80,Coated,Text,Matte,true,false
+Upbm,Di H Plain,90,Coated,Text,Matte,true,false
+Upbm,Di H Plain,100,Coated,Text,Matte,true,false
+Upbm,Di H Plain,115,Coated,Text,Matte,true,false
+Upbm,Di H Plain,130,Coated,Text,Matte,true,false
+Upbm,Di H Plain,150,Coated,Text,Matte,true,false
+Upbm,Di News,40,Uncoated,News,Smooth,false,true
+Upbm,Di News,42,Uncoated,News,Smooth,false,true
+Upbm,Di Opti Matte,80,Coated,Text,Matte,true,false
+Upbm,Di Sun,52,Coated,Text,Silk,true,false
+Upbm,Di Prof,70,Coated,Text,Matte,true,false

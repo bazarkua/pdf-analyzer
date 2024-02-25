@@ -1,0 +1,73 @@
+﻿.mainContent {
+	width: calc(100vw - 40px);
+	height: calc(100vh - 90px);
+	position: relative;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	top: 20px;
+	padding: 5px 20px 5px 20px;
+	background-color: white;
+	overflow-y: scroll;
+}
+
+/* Change the padding of the main content when the screen is very small. */
+@media only screen and (max-width: 375px) {
+	.mainContent {
+		width: calc(100vw - 10px);
+		height: calc(100vh - 60px);
+		left: 5px;
+		right: 5px;
+		bottom: 5px;
+		top: 5px;
+		padding: 5px;
+	}
+}
+
+@media only screen and (min-width: 376px) {
+	.mainContent {
+		width: calc(100vw - 20px);
+		height: calc(100vh - 70px);
+		left: 10px;
+		right: 10px;
+		bottom: 10px;
+		top: 10px;
+		padding: 5px 2% 5px 2%;
+	}
+}
+
+@media only screen and (min-width: 575px) {
+	.mainContent {
+		width: calc(100vw - 40px);
+		height: calc(100vh - 90px);
+		left: 20px;
+		right: 20px;
+		bottom: 20px;
+		top: 20px;
+		padding: 5px 20px 5px 20px;
+	}
+}
+
+.lang {
+	float: right;
+	margin: 10px 20px 10px 20px;
+} 
+
+.navIcon {
+	position: relative;
+	bottom: 3px;
+}
+
+.appFooter {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.lang {
+	float: right;
+	margin: 10px 20px 10px 20px;
+}

@@ -1,0 +1,8 @@
+paperTypeCoated,paperTypeTreatment,paperFinish,mediaCoatingClass
+coated,none,gloss,closedSurface
+coated,none,matte,exposedFiberSurface
+coated,none,satin,closedSurface
+coated,none,silk,exposedFiberSurface
+coated,none,smooth,closedSurface
+coated,none,vellum,exposedFiberSurface
+coated,none,unknown,unknownSurface

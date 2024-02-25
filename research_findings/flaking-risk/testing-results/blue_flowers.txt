@@ -1,0 +1,8 @@
+Red flaking risk score: 0.0022
+Is Red flaking problematic? True
+Green flaking risk score: 0.0018
+Is Green flaking problematic? True
+Blue flaking risk score: 0.4042
+Is Blue flaking problematic? True
+Flaking risk confidence: 0.4042
+Flaking risk classification: High

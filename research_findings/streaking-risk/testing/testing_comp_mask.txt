@@ -1,0 +1,540 @@
+Image Name: GBI_CONTOURS_RES3.jpg
+
+Image Pixels: 11241000
+
+Min Area: 3600.0
+
+Pixel value at contour point (0, 0) is [  4  18 214]
+
+~~~~~~~~~~~~~~~~~~~~~~ Find Tree ~~~~~~~~~~~~~~~~~~~~~~
+
+Parent Array: [[2, 1620.0], [6, 78284.0], [34, 9229.5], [50, 40945.5], [53, 1484.0], [55, 974.0], [67, 605844.0], [70, 14419.5], [72, 19091.5], [75, 18996.5], [77, 12555.0], [79, 12584.0], [82, 12504.0], [84, 18700.0], [89, 12041.0], [102, 11997.5], [115, 11978.0], [129, 11900.5]]
+
+~~~~~~~~~~~~~~~~~~~~~~ Verify Contours ~~~~~~~~~~~~~~~~~~~~~~
+
+Node Tag: 3
+Area: 1.00000
+Rect Tuple: ((2137.5, 3228.5), (1.0, 1.0), 90.0)
+Aspect ratio = 1.00000 / 1.00000
+Not Problematic
+
+Node Tag: 4
+Area: 12.00000
+Rect Tuple: ((2117.5, 3223.0), (12.0, 1.0), 90.0)
+Aspect ratio = 12.00000 / 1.00000
+Not Problematic
+
+Node Tag: 7
+Area: 33.00000
+Rect Tuple: ((1509.0001220703125, 3069.000244140625), (4.242640495300293, 9.899495124816895), 45.0)
+Aspect ratio = 4.24264 / 9.89950
+Not Problematic
+
+Node Tag: 8
+Area: 15.50000
+Rect Tuple: ((1551.0, 3022.5), (3.0, 8.0), 90.0)
+Aspect ratio = 3.00000 / 8.00000
+Not Problematic
+
+Node Tag: 9
+Area: 0.00000
+Rect Tuple: ((1559.5, 3020.0), (3.0, 0.0), 180.0)
+Bad Width or Height
+Not Problematic
+
+Node Tag: 10
+Area: 13.50000
+Rect Tuple: ((1584.000244140625, 3013.500244140625), (3.535533905029297, 7.77817440032959), 45.0)
+Aspect ratio = 3.53553 / 7.77817
+Not Problematic
+
+Node Tag: 11
+Area: 467.00000
+Rect Tuple: ((1515.0567626953125, 3029.8017578125), (46.4278678894043, 24.862262725830078), 15.945395469665527)
+Aspect ratio = 46.42787 / 24.86226
+Not Problematic
+
+Node Tag: 12
+Area: 0.00000
+Rect Tuple: ((1601.5, 3007.0), (1.0, 0.0), 180.0)
+Bad Width or Height
+Not Problematic
+
+Node Tag: 13
+Area: 0.00000
+Rect Tuple: ((1475.0, 2999.0), (0.0, 0.0), 0.0)
+Bad Width or Height
+Not Problematic
+
+Node Tag: 14
+Area: 17.00000
+Rect Tuple: ((1620.54150390625, 2997.57763671875), (2.000000238418579, 21.941177368164062), 61.927513122558594)
+Aspect ratio = 2.00000 / 21.94118
+Not Problematic
+
+Node Tag: 15
+Area: 2.00000
+Rect Tuple: ((1511.0, 2905.5), (1.0, 4.0), 90.0)
+Aspect ratio = 1.00000 / 4.00000
+Not Problematic
+
+Node Tag: 16
+Area: 2.00000
+Rect Tuple: ((1542.0, 2904.5), (1.0, 4.0), 90.0)
+Aspect ratio = 1.00000 / 4.00000
+Not Problematic
+
+Node Tag: 17
+Area: 59.50000
+Rect Tuple: ((1533.5, 2898.0), (6.0, 17.0), 90.0)
+Aspect ratio = 6.00000 / 17.00000
+Not Problematic
+
+Node Tag: 18
+Area: 17.50000
+Rect Tuple: ((1502.7501220703125, 2885.250244140625), (7.071067810058594, 3.5355336666107178), 45.0)
+Aspect ratio = 7.07107 / 3.53553
+Not Problematic
+
+Node Tag: 19
+Area: 9.50000
+Rect Tuple: ((1490.0, 2838.0), (2.0, 6.0), 90.0)
+Aspect ratio = 2.00000 / 6.00000
+Not Problematic
+
+Node Tag: 20
+Area: 68.50000
+Rect Tuple: ((1542.887939453125, 2829.554443359375), (4.24294376373291, 58.076499938964844), 86.69812774658203)
+Aspect ratio = 4.24294 / 58.07650
+Not Problematic
+
+Node Tag: 21
+Area: 1.00000
+Rect Tuple: ((1711.5, 2793.5), (1.0, 1.0), 90.0)
+Aspect ratio = 1.00000 / 1.00000
+Not Problematic
+
+Node Tag: 22
+Area: 1.00000
+Rect Tuple: ((1705.5, 2788.5), (7.0, 1.0), 90.0)
+Aspect ratio = 7.00000 / 1.00000
+Not Problematic
+
+Node Tag: 23
+Area: 6.50000
+Rect Tuple: ((1666.538330078125, 2785.6923828125), (13.335897445678711, 2.3533935546875), 78.69007110595703)
+Aspect ratio = 13.33590 / 2.35339
+Not Problematic
+
+Node Tag: 24
+Area: 1.50000
+Rect Tuple: ((1681.5, 2779.5), (3.0, 1.0), 90.0)
+Aspect ratio = 3.00000 / 1.00000
+Not Problematic
+
+Node Tag: 25
+Area: 0.00000
+Rect Tuple: ((1718.0, 2773.0), (0.0, 0.0), 0.0)
+Bad Width or Height
+Not Problematic
+
+Node Tag: 26
+Area: 3.00000
+Rect Tuple: ((1683.5, 2737.0), (4.0, 1.0), 90.0)
+Aspect ratio = 4.00000 / 1.00000
+Not Problematic
+
+Node Tag: 35
+Area: 3.00000
+Rect Tuple: ((1676.0, 2481.5), (3.0, 2.0), 90.0)
+Aspect ratio = 3.00000 / 2.00000
+Not Problematic
+
+Node Tag: 51
+Area: 6.00000
+Rect Tuple: ((589.9999389648438, 1921.0001220703125), (7.071067810058594, 1.4142134189605713), 45.0)
+Aspect ratio = 7.07107 / 1.41421
+Not Problematic
+
+Node Tag: 54
+Area: 1.00000
+Rect Tuple: ((2213.5, 1050.5), (1.0, 1.0), 90.0)
+Aspect ratio = 1.00000 / 1.00000
+Not Problematic
+
+Node Tag: 56
+Area: 1.00000
+Rect Tuple: ((1431.5, 1050.5), (1.0, 1.0), 90.0)
+Aspect ratio = 1.00000 / 1.00000
+Not Problematic
+
+Node Tag: 68
+Area: 6078.50000
+Rect Tuple: ((501.5, 1295.4998779296875), (82.99998474121094, 214.99996948242188), 0.0)
+Aspect ratio = 82.99998 / 214.99997
+Problematic
+
+Node Tag: 69
+Area: 4529.00000
+Rect Tuple: ((885.5477294921875, 1295.12060546875), (216.06895446777344, 50.2471923828125), 89.61547088623047)
+Aspect ratio = 216.06895 / 50.24719
+Not Problematic
+
+Node Tag: 74
+Area: 7129.50000
+Rect Tuple: ((655.614501953125, 1294.6448974609375), (94.08139038085938, 217.31605529785156), 0.3672756254673004)
+Aspect ratio = 94.08139 / 217.31606
+Problematic
+
+Node Tag: 81
+Area: 8697.00000
+Rect Tuple: ((755.3336181640625, 991.5203857421875), (215.9388427734375, 103.32878112792969), 89.46202850341797)
+Aspect ratio = 215.93884 / 103.32878
+Problematic
+
+Node Tag: 87
+Area: 7654.00000
+Rect Tuple: ((1115.0, 992.0), (218.0, 94.0), 90.0)
+Aspect ratio = 218.00000 / 94.00000
+Problematic
+
+Node Tag: 88
+Area: 7728.50000
+Rect Tuple: ((635.5, 991.5), (219.0, 95.0), 90.0)
+Aspect ratio = 219.00000 / 95.00000
+Problematic
+
+Node Tag: 70
+Area: 9287.00000
+Rect Tuple: ((995.0, 1295.5), (219.0, 96.0), 90.0)
+Aspect ratio = 219.00000 / 96.00000
+Problematic
+
+Node Tag: 72
+Area: 9214.50000
+Rect Tuple: ((771.0, 1295.5), (219.0, 98.0), 90.0)
+Aspect ratio = 219.00000 / 98.00000
+Problematic
+
+Node Tag: 75
+Area: 9140.50000
+Rect Tuple: ((386.5, 1295.5), (95.0, 219.0), 0.0)
+Aspect ratio = 95.00000 / 219.00000
+Problematic
+
+Node Tag: 77
+Area: 8721.00000
+Rect Tuple: ((992.5, 991.5), (215.0, 113.0), 90.0)
+Aspect ratio = 215.00000 / 113.00000
+Problematic
+
+Node Tag: 79
+Area: 7923.50000
+Rect Tuple: ((876.25146484375, 991.7514038085938), (92.80538177490234, 215.4630584716797), 0.6193896532058716)
+Aspect ratio = 92.80538 / 215.46306
+Problematic
+
+Node Tag: 82
+Area: 8597.50000
+Rect Tuple: ((511.5, 991.5), (215.0, 113.0), 90.0)
+Aspect ratio = 215.00000 / 113.00000
+Problematic
+
+Node Tag: 84
+Area: 10281.50000
+Rect Tuple: ((388.4999694824219, 991.5), (94.99998474121094, 214.99996948242188), 0.0)
+Aspect ratio = 94.99998 / 214.99997
+Problematic
+
+Node Tag: 90
+Area: 100.00000
+Rect Tuple: ((994.0, 193.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 91
+Area: 98.50000
+Rect Tuple: ((960.5, 193.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 92
+Area: 107.50000
+Rect Tuple: ((1010.5, 176.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 93
+Area: 109.50000
+Rect Tuple: ((977.5, 176.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 94
+Area: 114.00000
+Rect Tuple: ((1027.5, 159.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 95
+Area: 114.00000
+Rect Tuple: ((993.5, 159.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 96
+Area: 115.00000
+Rect Tuple: ((1043.5, 143.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 97
+Area: 114.50000
+Rect Tuple: ((1010.5, 143.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 98
+Area: 100.00000
+Rect Tuple: ((1027.0, 126.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 99
+Area: 96.00000
+Rect Tuple: ((994.0, 126.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 100
+Area: 106.50000
+Rect Tuple: ((1010.5, 109.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 101
+Area: 106.00000
+Rect Tuple: ((977.5, 109.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 103
+Area: 99.50000
+Rect Tuple: ((875.0, 193.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 104
+Area: 120.00000
+Rect Tuple: ((842.0, 193.5), (11.0, 14.0), 90.0)
+Aspect ratio = 11.00000 / 14.00000
+Not Problematic
+
+Node Tag: 105
+Area: 109.50000
+Rect Tuple: ((891.5, 176.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 106
+Area: 103.00000
+Rect Tuple: ((857.5, 176.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 107
+Area: 114.00000
+Rect Tuple: ((907.5, 159.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 108
+Area: 110.50000
+Rect Tuple: ((874.5, 159.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 109
+Area: 114.50000
+Rect Tuple: ((924.5, 143.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 110
+Area: 115.00000
+Rect Tuple: ((891.5, 143.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 111
+Area: 100.00000
+Rect Tuple: ((908.0, 126.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 112
+Area: 97.50000
+Rect Tuple: ((875.0, 126.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 113
+Area: 113.00000
+Rect Tuple: ((891.5, 109.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 114
+Area: 103.00000
+Rect Tuple: ((858.0, 109.5), (11.0, 10.0), 90.0)
+Aspect ratio = 11.00000 / 10.00000
+Not Problematic
+
+Node Tag: 116
+Area: 0.00000
+Rect Tuple: ((682.0, 208.0), (0.0, 0.0), 0.0)
+Bad Width or Height
+Not Problematic
+
+Node Tag: 117
+Area: 121.00000
+Rect Tuple: ((746.5, 193.5), (11.0, 13.0), 90.0)
+Aspect ratio = 11.00000 / 13.00000
+Not Problematic
+
+Node Tag: 118
+Area: 116.50000
+Rect Tuple: ((713.0, 193.5), (11.0, 12.0), 90.0)
+Aspect ratio = 11.00000 / 12.00000
+Not Problematic
+
+Node Tag: 119
+Area: 109.00000
+Rect Tuple: ((763.5, 176.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 120
+Area: 100.00000
+Rect Tuple: ((730.0, 176.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 121
+Area: 109.50000
+Rect Tuple: ((780.0, 159.5), (11.0, 10.0), 90.0)
+Aspect ratio = 11.00000 / 10.00000
+Not Problematic
+
+Node Tag: 122
+Area: 109.50000
+Rect Tuple: ((747.0, 159.5), (11.0, 10.0), 90.0)
+Aspect ratio = 11.00000 / 10.00000
+Not Problematic
+
+Node Tag: 123
+Area: 102.50000
+Rect Tuple: ((797.0, 143.5), (11.0, 10.0), 90.0)
+Aspect ratio = 11.00000 / 10.00000
+Not Problematic
+
+Node Tag: 124
+Area: 119.00000
+Rect Tuple: ((763.5, 143.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 125
+Area: 98.50000
+Rect Tuple: ((780.0, 126.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 126
+Area: 99.50000
+Rect Tuple: ((747.0, 126.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 127
+Area: 118.50000
+Rect Tuple: ((763.5, 109.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 128
+Area: 103.00000
+Rect Tuple: ((730.0, 109.5), (11.0, 10.0), 90.0)
+Aspect ratio = 11.00000 / 10.00000
+Not Problematic
+
+Node Tag: 130
+Area: 104.00000
+Rect Tuple: ((627.5, 193.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 131
+Area: 101.50000
+Rect Tuple: ((644.5, 176.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 132
+Area: 103.00000
+Rect Tuple: ((611.5, 176.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 133
+Area: 108.50000
+Rect Tuple: ((661.0, 159.5), (11.0, 10.0), 90.0)
+Aspect ratio = 11.00000 / 10.00000
+Not Problematic
+
+Node Tag: 134
+Area: 118.00000
+Rect Tuple: ((627.5, 159.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 135
+Area: 109.50000
+Rect Tuple: ((677.5, 143.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 136
+Area: 106.50000
+Rect Tuple: ((644.5, 143.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Node Tag: 137
+Area: 96.00000
+Rect Tuple: ((661.0, 126.0), (10.0, 10.0), 90.0)
+Aspect ratio = 10.00000 / 10.00000
+Not Problematic
+
+Node Tag: 138
+Area: 106.00000
+Rect Tuple: ((627.5, 126.0), (10.0, 11.0), 90.0)
+Aspect ratio = 10.00000 / 11.00000
+Not Problematic
+
+Node Tag: 139
+Area: 109.50000
+Rect Tuple: ((644.0, 109.5), (11.0, 10.0), 90.0)
+Aspect ratio = 11.00000 / 10.00000
+Not Problematic
+
+Node Tag: 140
+Area: 115.50000
+Rect Tuple: ((611.5, 109.5), (11.0, 11.0), 90.0)
+Aspect ratio = 11.00000 / 11.00000
+Not Problematic
+
+Problematic: True 
+Total Pixels (P): 11241000 
+Risky Area (R): 100453.0 
+Percent Risk (R / P): 0.00894

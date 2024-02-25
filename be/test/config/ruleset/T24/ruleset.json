@@ -1,0 +1,119 @@
+{
+    "displayName": "T24 Web Press",
+    "properties": {
+        "pdfMaxCoverage": {
+            "type": "number",
+            "displayName": "PDF Max Coverage"
+        },
+        "opticalDensity": {
+            "type": "number",
+            "displayName": "Optical Density"
+        },
+        "paperWeight": {
+            "type": "number",
+            "displayName": "Weight",
+            "unit": "gsm"
+        },
+
+        "paperTypeCoated": {
+            "type": "string",
+            "validValues": ["uncoated", "coated"],
+            "displayName": "Type"
+        },
+        "paperTypeTreatment": {
+            "type": "string",
+            "validValues": ["none", "treated", "pro"],
+            "displayName": "Type"
+        },
+        "paperFinish": {
+            "type": "string",
+            "validValues": ["unknown", "gloss", "matte", "satin", "silk", "smooth", "vellum"],
+            "displayName": "Finish"
+        },
+        "mediaCoatingClass": {
+            "type": "string",
+            "validValues": ["mostSurfaces", "inkjetTreatedSurface", "unknownSurface", "closedSurface", "exposedFiberSurface"],
+            "displayName": "Media Coating Class"
+        },
+
+        "mediaWeightClass": {
+            "type": "string",
+            "validValues": ["veryLow", "low", "medium", "heavy"],
+            "displayName": "Media Weight Class"
+        },
+        "coverageClass": {
+            "type": "string",
+            "validValues": ["light","medium", "heavy"],
+            "displayName": "Coverage Class"
+        },
+
+        "dryerZone": {
+            "type": "number",
+            "unit": "PLI",
+            "displayName": "Dryer Zone"
+        },
+        "printZone": {
+            "type": "number",
+            "unit": "PLI",
+            "displayName": "Print Zone"
+        },
+        "emtUnwinder": {
+            "type": "number",
+            "unit": "PLI",
+            "displayName": "EMT Unwinder"
+        },
+        "hnkUnwinder": {
+            "type": "number",
+            "unit": "PLI",
+            "displayName": "HNK Unwinder"
+        },
+        "rewinder": {
+            "type": "number",
+            "unit": "PLI",
+            "displayName": "Rewinder"
+        },
+        "dryerPower": {
+            "type": "string",
+            "displayName": "Dryer Power"
+        },
+        "targetSpeed": {
+            "type": "number",
+            "unit": "FPM",
+            "displayName": "Target Speed"
+        },
+        "qualityMode": {
+            "type": "string",
+            "validValues": ["fast","best"],
+            "displayName": "Quality Mode"
+        },
+        "pressUnwinderBrand": {
+            "type": "string",
+            "displayName": "Press Unwinder Brand"
+        }
+    },
+    "tables": [
+        {   "displayName": "Other Classes",
+            "logic": "T24-classes.js",
+            "inputProperties": ["pdfMaxCoverage", "opticalDensity", "paperWeight", "pressUnwinderBrand"],
+            "outputProperties": ["coverageClass", "mediaWeightClass"]
+        },
+        {   "displayName": "Media Coating Class",
+            "file": "T24-coatingclass.csv",
+            "logic": "T24-coatingclass.js",
+            "inputProperties": ["paperTypeCoated", "paperTypeTreatment", "paperFinish"],
+            "outputProperties": ["mediaCoatingClass"]
+        },
+        {   "displayName": "Dryer Power and Target Speed",
+            "file": "T24-dryerspeed.csv",
+            "logic": "T24-dryerspeed.js",
+            "inputProperties": ["coverageClass", "mediaWeightClass", "paperTypeCoated", "mediaCoatingClass", "qualityMode"],
+            "outputProperties": ["dryerPower", "targetSpeed"]
+        },
+        {   "displayName": "Tension",
+            "file": "T24-tensions.csv",
+            "logic": "T24-tensions.js",
+            "inputProperties": ["mediaWeightClass", "coverageClass"],
+            "outputProperties": ["dryerZone", "printZone", "emtUnwinder", "hnkUnwinder", "rewinder"]
+        }
+    ]
+}

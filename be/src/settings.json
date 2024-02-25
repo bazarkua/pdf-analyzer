@@ -1,0 +1,16 @@
+{
+    "port": 80,
+    "rulesetDirs": ["/opt/sja/rulesets", "/etc/sja/rulesets"],
+    "logsDir": "/var/log/sja",
+    "enableLogs": true,
+    "paperDatabaseFile": "/opt/sja/paperdb.csv",
+    "enablePaperDatabase": true,
+    "pdfAnalyzer": {
+        "binLocation": "/app/build/pdf_analyze",
+        "configFile": "/app/config.json",
+        "execDir": "/app",
+        "enable": true
+    },
+    "jobHistoryFile": "/opt/sja/job_history.json",
+    "enableJobHistory": true
+}

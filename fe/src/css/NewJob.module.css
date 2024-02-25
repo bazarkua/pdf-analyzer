@@ -1,0 +1,106 @@
+﻿.newJobFormContainer {
+	/*max-width: 495px;*/
+	max-width: 600px;
+	min-width: 235px;
+}
+
+.newJobFormContainer {
+	/*max-width: 495px;*/
+	max-width: 600px;
+	min-width: 235px;
+}
+
+@media only screen and (max-width: 575px) {
+	.newJobFormContainer {
+		max-width: 99%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.newJobFormContainer {
+		max-width: 98%;
+	}
+}
+
+.betterInputNumberLabel {
+	padding-top: 2px;
+	vertical-align: middle;
+	display: inline-table;
+	line-height: 24px;
+	height: 32px;
+}
+
+.betterInputNumberDiv {
+	position: relative;
+	top: -7px;
+	left: 16px;
+	display: flex;
+	margin-left: -10px;
+}
+
+.formItem {
+	margin-top: 100px;
+}
+
+.formItemPaper {
+	position: relative;
+	bottom: 4px;
+}
+
+.formItemInput {
+	position: relative;
+	top: -10px;
+}
+
+.formItemInputNumber {
+	margin-left: 16px;
+	position: relative;
+	top: -7px;
+	left: 16px;
+}
+
+.iconAdjust {
+	position: relative;
+	bottom: 3px;
+}
+
+.resetButtonInfo {
+	position: relative;
+	left: 20px;
+	bottom: 2px;
+	margin-bottom: 5px;
+	margin-right: 40px;
+}
+
+.resetButtonPaper {
+	position: relative;
+	left: 20px;
+	bottom: 2px;
+	margin-bottom: 5px;
+	margin-right: 40px;
+}
+
+.uploadButton {
+	position: relative;
+	left: 20px;
+	bottom: 2px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 30px;
+}
+
+@media only screen and (max-width: 405px) {
+	.resetButtonInfo {
+		margin-left: -10px;
+		margin-right: 0px;
+	}
+	.uploadButton {
+		left: 50px;
+	}
+}
+
+.formButtons {
+	max-width: 500px;
+	display: flex;
+	justify-content: space-between;
+}

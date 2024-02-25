@@ -1,0 +1,13 @@
+﻿.ant-table col.ant-table-selection-col  {
+	width: 10px !important;
+}
+
+.ant-table .ant-table-content {
+	padding-left: 39px;
+}
+
+@media only screen and (max-width: 500px) {
+	.ant-table .ant-table-content {
+		padding-left: 23px;
+	}
+}

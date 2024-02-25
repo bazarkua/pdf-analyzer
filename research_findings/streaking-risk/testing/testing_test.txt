@@ -1,0 +1,48 @@
+Image Name: ss1.jpg
+
+Image Pixels: 1218865
+
+Min Area: 3600.0
+
+Pixel value at contour point (0, 0) is [248 248 248]
+
+~~~~~~~~~~~~~~~~~~~~~~ Find Tree ~~~~~~~~~~~~~~~~~~~~~~
+
+Parent Array: [[1, 337138.0], [3, 105544.0], [4, 14639.0], [6, 14633.0], [8, 163506.0]]
+
+~~~~~~~~~~~~~~~~~~~~~~ Verify Contours ~~~~~~~~~~~~~~~~~~~~~~
+
+Node Tag: 4
+Area: 10364.00000
+Rect Tuple: ((1297.5, 290.0), (131.0, 142.0), 0.0)
+Aspect ratio = 131.00000 / 142.00000
+Problematic
+
+Node Tag: 6
+Area: 11900.00000
+Rect Tuple: ((1132.5, 290.0), (131.0, 142.0), 0.0)
+Aspect ratio = 131.00000 / 142.00000
+Problematic
+
+Node Tag: 11
+Area: 79860.00000
+Rect Tuple: ((177.0, 209.5), (336.0, 303.0), 0.0)
+Aspect ratio = 336.00000 / 303.00000
+Problematic
+
+Node Tag: 1
+Area: 208121.50000
+Rect Tuple: ((1197.0, 410.0), (610.0, 704.0), 0.0)
+Aspect ratio = 610.00000 / 704.00000
+Problematic
+
+Node Tag: 8
+Area: 124169.00000
+Rect Tuple: ((636.5, 338.5), (371.0, 561.0), 0.0)
+Aspect ratio = 371.00000 / 561.00000
+Problematic
+
+Problematic: True 
+Total Pixels (P): 1218865 
+Risky Area (R): 434414.5 
+Percent Risk (R / P): 0.35641
